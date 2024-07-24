@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-image: linear-gradient(#00000d,#3a3a5f);
+    color: rgb(216, 211, 207);
+    padding: 33px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2 em;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-right: -20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+header nav ul li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(216, 211, 207);
+    text-decoration: none;
+    font-size: 1em;
+    border: 2px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+header nav ul li a:hover {
+    box-shadow: -1px -1px 20px 5px white;
+    transition: ease-in;
+    transition-duration: 1s;
+    
+}
+
+.outlook{
+    position: absolute;
+    right: 113px;
+    top: 16.2em;
+    border: 2px transparent;
+    border-radius: 15px;
+}
+
+#hero {
+    display: inline-block;
+    width: 100vw;
+    background-color: #3a3a5f;
+    background-size: cover;
+    color: #fff;
+    text-align: left;
+    padding: 150px 0;
+}
+
+#hero h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20vh;
+    margin-left: 37vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    z-index: 1;
+    transition-duration: 3s;
+    box-shadow: 0px 0px 20px 4px whitesmoke;
+}
+
+#about{
+
+    background-color:#3a3a5f8a;
+color: #000000;
+height: 100vh;
+}
+
+#about .container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about .container p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-top: 17vh;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+#products{
+    color: rgb(216, 211, 207);
+    background-color: #3a3a5f;
+}
+.product {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+}
+
+.product img {
+    border: 2px transparent;
+    height: 250px;
+    width: 250px;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.product p {
+    font-size: 1.1em;
+}
+
+.contact .info {
+padding: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact .yours {
+padding-bottom: 25px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact .yours input{
+    border: 2px transparent;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.contact .yours #submit{
+    margin: 25px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #f0ba47;
+    box-shadow: 0px 0px 15px 4px black;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    clear: both;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header nav {
+        float: none;
+        margin: 20px 0 0;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #hero {
+        padding: 100px 0;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+}
