@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin-left:0vw;
+    padding:0px;
+    text-align: center;
+}
+
+body{
+    background:linear-gradient(to left,rgb(248, 179, 133),rgb(133, 173, 248));
+}   
+.cold{
+    float: left;
+    margin: 55px;
+}
+.hot{
+    float: right;
+    margin: 55px;
+}
+body > h1{
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main{
+    background:radial-gradient(at center,rgba(128, 128, 128, 0),rgba(0, 0, 0, 0.747));
+    margin-left: 38vw;
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px black;
+    width:max-content;
+
+    padding: 25px;
+    border-radius: 5px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.main > input{
+    width: 20vw;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+.main > .choose{
+    margin: 11px;
+}
+.main > .choose > select{
+    margin: 10px;
+    width: 3cm;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+}
+.first{
+    background-color: rgba(133, 173, 248, 0.5);
+}
+.second{
+    background-color: rgba(248, 179, 133, 0.507);
+}
+.fb{
+    background-color:rgba(47, 255, 47, 0.219);
+    padding: 6px;
+    text-align: center;
+    margin: 11px;
+    border-radius: 5px;
+}
+
+.sb{
+    background-color:rgba(255, 47, 47, 0.219);
+    padding: 6px;
+    text-align: center;
+    margin: 11px;
+    border-radius: 5px;
+}
+.display{
+    margin: 5px;
+    box-shadow: 0px -0.5px 0px 0px black;
+    padding: 15px;
+}
+
+.display > span{
+    font-size:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.display > h2{
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0px;
+}

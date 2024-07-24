@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Convertor</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="/temperature_prev_ui.png" alt="" class="cold" width="400px">
+    <img src="/hot_prev_ui.png" alt="" class="hot" width="400 px">
+    <h1>Temprature Convertor</h1>
+    <div class="main">
+        <input type="number" placeholder="Enter Temprature" name="display" id="display">
+        <div class="choose">
+            <select name="" id="option1" class="first">
+                <option value="ceci">Celcius</option>
+                <option value="farhen">Farenhite</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            &rarr;
+            <select name="" id="option2" class="second">
+                <option value="farhen">Farenhite</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="ceci">Celcius</option>
+            </select>
+    
+        </div>
+        <button class="fb" id="convert-btn"> Convert</button>
+        <button class="sb">Clear </button>
+        <div class="display">
+            <span>Result </span>
+            <h2 id="result">_</h2>
+        </div>
+    </div>
+
+</body>
+</html>
